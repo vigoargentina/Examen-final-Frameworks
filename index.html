@@ -10,35 +10,81 @@
     <link rel="stylesheet" href="materialize-social.css">
     <link rel="stylesheet" href="css/estilos_personalizados.css">
     <title>Blog Adiestramiento</title>
-    <title></title>
   </head>
   <body>
-
     <div class="row">
-      <div class="s12 col black barra-superior">
+      <div class="s12 col black z-depth-2 barra-superior">
         <img src="img/crop.jpg" alt="ShareUrCode" class="logo"/>
-        <ul class="right">
-          <li><a class="waves-effect waves-light btn-floating btn-small social facebook" href="https://www.facebook.com/?stype=lo&jlou=AffkbEIto_Ps5hiniHkCVL-tOz1wE3VueKXscjpZw6kgtqs-lpS_VWE0VKbfBzb0vqt9XUsG8pqNutbP50ScEk1J&smuh=33968&lh=Ac_XPQO_tyH6cL2z"><i class="fa fa-facebook"></i></a></li>
+        <div class="right">
+          <a class="waves-effect waves-light btn-floating btn-small social facebook" href="https://www.facebook.com/?stype=lo&jlou=AffkbEIto_Ps5hiniHkCVL-tOz1wE3VueKXscjpZw6kgtqs-lpS_VWE0VKbfBzb0vqt9XUsG8pqNutbP50ScEk1J&smuh=33968&lh=Ac_XPQO_tyH6cL2z"><i class="fa fa-facebook"></i></a>
 
-          <li><a class="waves-effect waves-light btn-floating btn-small social twitter" href="https://twitter.com/?lang=es"><i class="fa fa-twitter"></i></a></li>
+          <a class="waves-effect waves-light btn-floating btn-small social twitter" href="https://twitter.com/?lang=es"><i class="fa fa-twitter"></i></a>
 
-          <li><a class="waves-effect waves-light btn-floating social linkedin" href="https://www.google.com.ar/search?q=google&rlz=1C1CHZL_esAR760AR760&oq=goo&aqs=chrome.0.0j69i60j0j69i60j69i65l2.1227j0j4&sourceid=chrome&ie=UTF-8"><i class="fa fa-linkedin"></i></a></li>
+          <a class="waves-effect waves-light btn-floating social linkedin" href="https://ar.linkedin.com/"><i class="fa fa-linkedin"></i></a>
 
-          <li><a class="waves-effect waves-light btn-floating btn-small social pinterest" href="https://ar.pinterest.com/"><i class="fa fa-pinterest"></i></a></li>
-        </ul>
+          <a class="waves-effect waves-light btn-floating btn-small social pinterest" href="https://ar.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+        </div>
       </div>
     </div>
     <nav>
-      <div class="nav-wrapper cyan lighten-1">
-        <ul class=" hide-on-med-and-down">
-          <li><a href="#">Inicio</a> </li>
-          <li><a href="#">Adiestramiento</a> </li>
-          <li><a href="#">Galeria</a> </li>
-          <li><a href="#">Contacto</a> </li>
+      <div class="nav-wrapper cyan lighten-1 z-depth-2">
+        <ul class="hide-on-med-and-down">
+          <li class="active"><a href="index.html">Inicio</a> </li>
+          <li><a href="Adiestramiento.html">Adiestramiento</a> </li>
+          <li><a href="galeria.html">Galeria</a> </li>
+          <li><a href="contacto.html">Contacto</a> </li>
         </ul>
       </div>
     </nav>
+    <div class="row">
+      <div class="s12 m12 l8 col black columna-publicaciones">
+        <div class="contenedor-write-publicacion card cyan lighten-1">
 
+        </div>
+        <div class="contenedor-publicacion card cyan lighten-1">
+          <div class="row contenido-publicacion">
+            <div class="s12 col">
+              <video src="media/video1.wmv" autoplay controls class="responsive-video media-element"></video>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-publicacion card cyan lighten-1">
+          <div class="row contenido-publicacion">
+            <div class="s12 col">
+              <p class="flow text">
+                Hola, quiero compartirles mi experiencia como programador web.
+                He aprendido mucho de diseño front-end mediante diversos frameworks
+                CSS y la verdad me siento muy a gusto desarrollando con Materialize CSS.
+              </p>
+              <blockquote>
+                En esta ocasión estoy aprendiendo a implementar texto adaptativo, imágenes y video.
+                Me ha resultado muy sencillo implementar cada uno de estos elementos puesto que el Framework
+                lo hace muy sencillo. Sin embargo me surge una pregunta, tengo problemas
+                al usar un video desde la web, ¿Alguien puede ayudarme?
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l3 offset-l1 col white columna-news hide-on-med-and-down">
+        <div class="contenedor-noticias amber lighten-4">
+          <h5 class="center-align">ULTIMAS NOTICIAS</h5>
+          <p class="truncate">
+            -Se ha publicado la ultima cersion de Java 8.
+          </p>
+          <img src="img/portatil.jpg" class="responsive-img"/>
+          <p class="truncate">
+            -Nueva version de JavaScript
+          </p>
+          <img src="img/celular.jpg" class="responsive-img"/>
+          <p class="truncate">
+            -Se aproxima la conferencia de desarrollo web.
+          </p>
+          <img src="img/television.jpg" class="responsive-img"/>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>

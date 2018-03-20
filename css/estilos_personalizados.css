@@ -1,8 +1,24 @@
 .barra-superior{
-  min-height: 5rem;
+  min-height: 4rem;
 }
 
 .logo{
-  width: 155px;
-  margin-top: 0.5rem;
+width: 150px;
+margin-top: 0.5rem;
 }
+
+div[class*="columna"]{
+  min-height: 50rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+}
+
+.contenedor-write-publicacion{
+  min-height: 7rem;
+  padding: 5rem;
+}
+
+.contenido-publicacion{
+  min-height: 17rem;
+  padding: 2rem;
