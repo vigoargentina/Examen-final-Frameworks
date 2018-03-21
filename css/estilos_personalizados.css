@@ -14,11 +14,41 @@ div[class*="bloque"]{
   height: 25rem;
 }
 
+.columna-news{
+  padding: 2rem !important;
+}
+
 .contenedor-write-publicacion{
+  margin-top: 4rem;
+  min-height: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.contenido-write-publicacion{
   min-height: 7rem;
   padding: 5rem;
 }
 
+.contenedor-noticias{
+  margin-top: 2rem;
+  min-height: 5rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.contenedor-publicacion{
+  border-radius: 10px;
+}
+
 .contenido-publicacion{
   min-height: 17rem;
-  padding: 2rem;
+}
+
+.contenedor-buscar{
+  margin-bottom: 10px;
+}
+
+#search{
+  margin-top: 0px;
+}
